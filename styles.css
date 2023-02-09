@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  height: 85vh;
+  width: 80vw;
+}
+.image_degrade {
+  height: 38.8vw;
+  width: 30vw;
+}
