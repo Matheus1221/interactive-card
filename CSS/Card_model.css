@@ -14,9 +14,10 @@
 }
 p {
   height: 13px;
-  font-size: 12px;
+  font-size: 9px;
   font-weight: bold;
   text-transform: uppercase;
+  padding-top: 4px;
 }
 input {
   height: 35px;
@@ -30,4 +31,23 @@ input {
 .input_card_data {
   width: 10px;
   padding-top: 8px;
+}
+.date {
+  height: 35px;
+  width: 50px;
+}
+.cvc {
+  height: 35px;
+  width: 50px;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  gap: 67px;
+}
+
+.input_card_date {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
 }
