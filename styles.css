@@ -251,3 +251,11 @@ form button {
     margin-top: 6rem;
   }
 }
+.btn_effect {
+  transition: all 1s;
+}
+.btn_effect:hover {
+  background-color: #2c2958;
+  transition: all 1s;
+  border: 5px solid #fff;
+}
